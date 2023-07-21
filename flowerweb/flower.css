@@ -1,0 +1,83 @@
+#main{
+    height: 1000px;
+    width: 100%;
+    background-image: url(./home-bg.jpg);
+    background-repeat: no-repeat;
+   
+}
+#box1{
+    background-color: rgb(252, 191, 222);
+    height: 90px ;
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+span{
+    margin-left: 700px;
+    margin-top: 30px;
+    
+}
+
+.a{
+    font-size: 25px;
+    margin-left: 20px;
+    position: relative;
+    color: black;
+}
+
+#logo{
+    height: 100px;
+    width: 200px;
+    border-radius: 50%;
+    
+}
+
+p{
+    font-size: 50px;
+    font-family:'Courier New', Courier, monospace;
+    margin-top: 150px;
+    margin-left: 20px;
+}
+
+button{
+    font-size: 20px;
+    margin-left: 150px;
+    background-color: rgb(238, 196, 217);
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#box2{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    margin-top: 500px;
+}
+
+.bann1{
+margin-left: 100px;
+border-top-right-radius: 30%;
+border-bottom-left-radius: 30%;
+}
+
+#box3{
+    margin-top: 100px;
+    margin-left: 500px;
+    font-size: 30px;
+    font-family: 'Pacifico', cursive;
+    
+}
+
+.pro{
+    height: 300px;
+    width: 300px;
+    margin-left: 100px;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+
+}

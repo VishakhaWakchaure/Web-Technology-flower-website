@@ -1,0 +1,19 @@
+/* #a img{
+    transform: rotateX('200px');
+    transform: rotateY('200px');
+    transform: rotateZ('200px');
+} */
+
+#flip{
+    border: 5px hidden black;
+    height: 500px;
+    width: 500px;
+    transform: rotateZ(200deg);
+    animation-name: am;
+    animation-duration: 9s;
+}
+
+@keyframes am{
+    from{transform: rotate(0deg);}
+    to {transform:rotate(360deg);}
+}
